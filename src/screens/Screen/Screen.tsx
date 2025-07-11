@@ -25,11 +25,11 @@ export const Screen = (): JSX.Element => {
   };
 
   const navMenuItems = [
-    { icon: "/group-2.png", text: t('promotions'), key: 'promotions' },
-    { icon: "/lightning-fadrjuwgn8mm-1.svg", text: t('hotOffers'), key: 'hotOffers' },
-    { icon: "/chest-2tusm8wzpqi4-1.svg", text: t('giftSets'), key: 'giftSets' },
-    { icon: "/quest-lv1irljjpy75-1.svg", text: t('events'), key: 'events' },
-    { icon: "/group-3.png", text: t('ourBrands'), key: 'ourBrands' },
+    { icon: "/krak.png", text: t('promotions'), key: 'promotions' },
+    { icon: "/kaycak.png", text: t('hotOffers'), key: 'hotOffers' },
+    { icon: "/sund.png", text: t('giftSets'), key: 'giftSets' },
+    { icon: "/quest.png", text: t('events'), key: 'events' },
+    { icon: "/orc.png", text: t('ourBrands'), key: 'ourBrands' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export const Screen = (): JSX.Element => {
                   <img
                     className="w-[11px] h-3.5 mt-px ml-[3px]"
                     alt="Location"
-                    src="/group-1.png"
+                    src="/Frame.png"
                   />
                 </div>
                 <span className="text-xs md:text-sm text-[#343a3f] [font-family:'Maza-Regular',Helvetica]">
@@ -58,7 +58,7 @@ export const Screen = (): JSX.Element => {
                   <img
                     className="w-2 h-[13px] mt-px ml-1"
                     alt="Phone"
-                    src="/group.png"
+                    src="/Group.png"
                   />
                 </div>
                 <span className="text-xs md:text-sm text-[#343a3f] [font-family:'Maza-Regular',Helvetica]">
@@ -98,17 +98,23 @@ export const Screen = (): JSX.Element => {
             {/* Logo */}
             <div className="w-12 h-12 md:w-20 md:h-20 bg-[#4888ff] rounded-[24px] md:rounded-[40px] mr-2 md:mr-5 flex-shrink-0">
               <div className="relative w-[42px] h-[42px] md:w-[70px] md:h-[70px] top-[3px] left-[3px] md:top-[5px] md:left-[5px] bg-[#4888ff] rounded-[21px] md:rounded-[35px]">
+             <div className="flex justify-center items-center pt-[10px]">
+              <img src="Vector.png" alt="Vec" className="w-[50px] h-[50px]" />
+                </div>
                 <div className="relative w-[24px] h-[24px] md:w-[41px] md:h-[41px] top-[9px] left-[9px] md:top-[15px] md:left-[15px] bg-[url(/reshot-icon-game-pacman-uzh68ypbt3-1.svg)] bg-[100%_100%]" />
               </div>
             </div>
 
             {/* Menu button */}
             <Button className="w-12 h-8 md:w-[101px] md:h-12 bg-[#4888ff] rounded-lg mr-2 md:mr-4 flex-shrink-0">
+             <Button className="w-12 h-8 md:w-[101px] md:h-12 bg-[#4888ff] rounded-lg mr-2 md:mr-4 flex-shrink-0">
               <div className="w-[41px] h-4">
-                <div className="absolute w-[38px] h-0.5 top-0 left-0 bg-white rounded-[1px]" />
-                <div className="absolute w-[38px] h-0.5 top-3.5 left-0 bg-white rounded-[1px]" />
-                <div className="absolute w-6 h-0.5 top-[7px] left-0 bg-white rounded-[1px]" />
+                <img
+                src="/Frame6.png"
+                alt="gic"
+                />
               </div>
+            </Button>
             </Button>
 
             {/* Search bar */}
@@ -132,7 +138,7 @@ export const Screen = (): JSX.Element => {
                   <img
                     className="w-4 h-[14px] md:w-6 md:h-[21px]"
                     alt="User account"
-                    src="/group-5.png"
+                    src="/teleg.png"
                   />
                 </div>
               </Button>
@@ -145,7 +151,7 @@ export const Screen = (): JSX.Element => {
                   <img
                     className="w-[15px] h-[15px] md:w-[22px] md:h-[22px]"
                     alt="Search"
-                    src="/group-4.png"
+                    src="/watsap.png"
                   />
                 </div>
               </Button>
@@ -154,9 +160,9 @@ export const Screen = (): JSX.Element => {
               <div className="w-[60px] md:w-[78px] h-6 flex items-center ml-1 md:ml-3">
                 <div className="w-4 h-4 md:w-6 md:h-6 mr-1 md:mr-2 hidden md:block">
                   <img
-                    className="w-[15px] h-[15px] md:w-[21px] md:h-[21px] mt-0.5 ml-0.5"
+                    className="w-[35px] h-[10px] md:w-[21px] md:h-[21px] mt-0.5 ml-0.5"
                     alt="Language"
-                    src="/group-16.png"
+                    src="/language.png"
                   />
                 </div>
                 <button 
@@ -186,7 +192,7 @@ export const Screen = (): JSX.Element => {
                   <img
                     className="w-[15px] h-[13px] md:w-[22px] md:h-[19px] mt-[2px] md:mt-[3px] ml-px"
                     alt="Cart"
-                    src="/group-6.png"
+                    src="/like.png"
                   />
                 </div>
               </Button>
@@ -198,7 +204,7 @@ export const Screen = (): JSX.Element => {
                 <img
                   className="w-4 h-4 md:w-6 md:h-6"
                   alt="User"
-                  src="/hunter-xlclcmxaiymj-1.svg"
+                  src="/hunter.png"
                 />
               </Button>
 
@@ -206,17 +212,11 @@ export const Screen = (): JSX.Element => {
                 variant="outline"
                 className="w-8 h-8 md:w-12 md:h-12 rounded border border-solid border-[#d2d2d2] p-0 hidden md:flex"
               >
-                <div className="relative w-4 h-4 md:w-6 md:h-6">
-                  <div className="absolute w-[3px] h-[7px] top-2.5 left-0 bg-[url(/group-7.png)] bg-[100%_100%]" />
-                  <div className="absolute w-6 h-1.5 top-[3px] left-0 bg-[url(/group-8.png)] bg-[100%_100%]" />
-                  <div className="absolute w-[5px] h-0.5 top-2.5 left-[15px] bg-[url(/group-9.png)] bg-[100%_100%]" />
-                  <div className="absolute w-[3px] h-[7px] top-2.5 left-[21px] bg-[url(/group-10.png)] bg-[100%_100%]" />
-                  <div className="absolute w-4 h-2 top-[13px] left-1 bg-[url(/group-11.png)] bg-[100%_100%]" />
-                  <div className="absolute w-1 h-1 top-[18px] left-5 bg-[url(/group-12.png)] bg-[100%_100%]" />
-                  <div className="absolute w-1 h-1 top-[18px] left-0 bg-[url(/group-13.png)] bg-[100%_100%]" />
-                  <div className="absolute w-[5px] h-0.5 top-2.5 left-1 bg-[url(/group-14.png)] bg-[100%_100%]" />
-                  <div className="absolute w-[3px] h-1 top-[9px] left-[11px] bg-[url(/group-15.png)] bg-[100%_100%]" />
-                </div>
+                <img
+                  className="w-4 h-4 md:w-6 md:h-6"
+                  alt="User"
+                  src="/beg.png"
+                />
               </Button>
             </div>
           </div>
@@ -319,7 +319,7 @@ export const Screen = (): JSX.Element => {
           <img
             className="absolute w-[200px] md:w-[566px] h-[300px] md:h-[439px] top-0 right-0 md:left-[874px] object-cover"
             alt="Gamepad"
-            src="/gamepad-1.png"
+            src="/gamepad.png"
           />
         </div>
       </div>
